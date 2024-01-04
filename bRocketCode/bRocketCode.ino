@@ -101,7 +101,7 @@ void setup() {
   
   // SENSOR SETUP
   Serial.begin(115200);
-  while (!Serial);
+  //while (!Serial);
   
   // Connect Sensors to I2C Port 1
   Wire1.begin();
