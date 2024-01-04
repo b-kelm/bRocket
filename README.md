@@ -37,6 +37,12 @@ Very simple:
 * GY-87 I2C (SCL, SDA) to Teensy I2C
 * GY-87 3.3V and GND to Teensy
 
+## Hardware:
+* [CAD Project in OnShape](https://cad.onshape.com/documents/1a86b86c449cfd5607f17169/w/2a4f6d37dc43f816d703094a/e/aea250dffba3a4ec5efab379?renderMode=0&uiState=6596c73ee2544e0292adf640)
+* [Rocket Motors (C6-7) used](https://www.raketenmodellbau-klima.de/Raketenmodellbau/Motoren-Treibsaetze/Treibsaetze-mit-Zuendschnueren/Motor-C6-7-6-Stueck-.htm?shop=raketenklima&SessionId=&a=article&ProdNr=0367&t=23&c=1885&p=1885)
+* LW-PLA for 3D Printing
+* 1.5mm carbon rods
+
 ## Program Description
 The program is heavily relying on these sources:
 - [teensy SD Logger](https://forum.pjrc.com/threads/66165-Minimalistic-SdFat-Datalogger-for-Teensy4-1-Example) by MBorgerson
