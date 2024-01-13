@@ -106,8 +106,8 @@ void setup() {
   // Connect Sensors to I2C Port 1
   Wire1.begin();
   mySensor.setWire(&Wire1); //Setting Wire 1
-  mySensor.beginAccel();
-  mySensor.beginGyro();
+  mySensor.beginAccel(ACC_FULL_SCALE_16_G);
+  mySensor.beginGyro(GYRO_FULL_SCALE_2000_DPS);
   mySensor.beginMag(); // Not used, but necessary, otherwise there's an error (data does not come in)
 
   // BEGIN SENSOR READINGS
